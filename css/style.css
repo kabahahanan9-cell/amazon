@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .product-card{
+            background-color: white;
+            width: 700px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            gap: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .product-card img{
+            width: 250px;
+        }
+
+        .product-info h2{
+            margin-top: 0;
+        }
+
+        .price{
+            color: green;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        button{
+            background-color: orange;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product-card">
+
+        <img src="images/جهاز كندل.webp" alt="Kindle">
+
+        <div class="product-info">
+            <h2>جهاز كندل</h2>
+
+            <p>
+                جهاز قراءة إلكتروني رائع لقراءة الكتب بسهولة
+                مع شاشة واضحة وبطارية تدوم طويلًا.
+            </p>
+
+            <p class="price">₪299</p>
+
+            <button>
+                إضافة إلى السلة
+            </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
